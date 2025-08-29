@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(255, 185, 220);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div{
+    background-color: rgb(255, 230, 247);
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+    margin: auto;
+    margin: top 50px;
+}
+
+h1{
+    color:rgb(250, 88, 182);
+    text-align: center;
+    padding: 30px ;
+}
+
+label{
+    font-size: 14pt;
+    margin: 12px;
+    padding: 10px;
+    display: block;
+}
+
+input{
+    margin: 20px;
+    padding: 7px;
+    width: 200px;
+    border-radius: 5px;
+}
+

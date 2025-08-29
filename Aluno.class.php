@@ -67,7 +67,7 @@ class Aluno{
         return $sql->execute();
     }
     
-    public function consulta($email){
+    public function consultar($email){
         $sql = "SELECT * FROM aluno WHERE email = :e";
         $sql = $this->pdo->prepare($sql);
         $sql->bindValue(":e", $email);
