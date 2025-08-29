@@ -9,15 +9,15 @@
 <body>
     <h1>Cadastrar Aluno</h1>
     <form action="" method="post">
-        <div class="cadastro">
+        <div class="Login">
             <label for="nome">Nome</label>
             <input type="text" name="nome" id="nome" placeholder = "Informe o nome do aluno">
             <label for="rm">RM</label>
             <input type="text" name="RM" id="RM" placeholder = "Informe o RM do aluno">
             <label for="CPF">CPF</label>
             <input type="text" name="CPF" id="CPF" placeholder = "Informe o CPF do aluno">
-            <button name="cadastrar">Cadastrar</button>
         </div>
+        <button name="cadastrar">Cadastrar</button>
     </form>
 </body>
 </html>
