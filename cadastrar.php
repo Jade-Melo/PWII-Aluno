@@ -7,17 +7,20 @@
     <title>Tela de Cadastro</title>
 </head>
 <body>
+    <div id="cadastrar">
     <h1>Cadastrar Aluno</h1>
     <form action="" method="post">
-        <div class="cadastro">
-            <label for="nome">Nome</label>
-            <input type="text" name="nome" id="nome" placeholder = "Informe o nome do aluno">
-            <label for="rm">RM</label>
-            <input type="text" name="RM" id="RM" placeholder = "Informe o RM do aluno">
-            <label for="CPF">CPF</label>
-            <input type="text" name="CPF" id="CPF" placeholder = "Informe o CPF do aluno">
-            <button name="cadastrar">Cadastrar</button>
-        </div>
+        <label for="rm">RM aluno</label>
+        <input type="number" name="rm" id="rm" placeholder = "Informe o RM do aluno">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" placeholder = "Informe o nome do aluno">
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email" placeholder = "Informe o email do aluno">
+        <label for="CPF">CPF</label>
+        <input type="text" name="CPF" id="CPF" placeholder = "Informe o CPF do aluno">
+
+        <input type="submit" value="Cadastrar" id= "botão">
+    </div>
     </form>
 </body>
 </html>
