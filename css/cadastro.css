@@ -1,35 +1,60 @@
-body{
-    background-color: rgb(255, 185, 220);
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 120px;
-    font-family: Arial, Helvetica, sans-serif;
+label{
+    display: block;
+    font-size: 13pt;
+    font-weight: bold;
+    margin: auto;
+    margin-left: 120px;
+    padding: 9px;
+    color: rgb(145, 145, 145);
 }
 
-div{
-    background-color: rgb(255, 230, 247);
-    width: 500px;
-    height: 600px;
-    border-radius: 10px;
-    margin: auto;
-    margin: top 50px;
+body{
+    background-color: rgb(255, 106, 168);
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1{
-    color:rgb(250, 88, 182);
+    padding: 20px;
     text-align: center;
-    padding: 30px ;
+    color: rgb(255, 106, 168);
 }
-
-label{
-    font-size: 14pt;
-    margin: 12px;
-    padding: 10px;
-    display: block;
+#cadastrar{
+    padding: 15px;
+    width: 490px;
+    height: 590px;
+    border-radius: 4px;
+    background-color:rgb(255, 234, 245);
+    margin: auto;
+    margin-top: 150px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
 input{
-    margin: 20px;
-    padding: 7px;
+    padding: 13px;
     width: 200px;
+    margin-left: 120px;
     border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+#botão{
+    margin-top: 20px;
+    margin-left: 125px;
+    display: block;
+    width: 220px;
+    background-color: rgb(255, 95, 148);
+    color:white;
+    padding: 15px;
+    border-radius: 10px;
+    border-color: rgb(255, 187, 208);
+    
+}
+
+#botão:hover{
+    transform: scale(1.10);
 }
