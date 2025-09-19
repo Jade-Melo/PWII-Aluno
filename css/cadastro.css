@@ -16,11 +16,6 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
-    padding: 120px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(248, 192, 255);
-}
 div{
     background-color: rgb(255, 216, 233);
     width: 500px;
