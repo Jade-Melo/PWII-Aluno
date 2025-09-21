@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/cadastro.css">
     <title>Tela de Cadastro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="cadastrar">
     <h1>Cadastrar Aluno</h1>
+    <p class="subtitle">Informe os dados abaixo para registro</p>
     <form action="" method="post">
         <label for="rm">RM aluno</label>
         <input type="number" name="rm" id="rm" placeholder = "Informe o RM do aluno">
